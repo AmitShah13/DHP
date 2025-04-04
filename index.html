@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tag Trends Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div id="home" class="home">
+        <h1 class="main-heading">Explore StackOverflow Tag Trends</h1>
+        <button id="viewTrendsBtn" class="primary-btn">View Trends</button>
+    </div>
+
+    <div id="graphView" class="graph-view hidden">
+        <h2 class="small-heading">Top Tags Over the Years</h2>
+        <div class="graph-container">
+            <canvas id="lineChart"></canvas>
+        </div>
+        <button id="backBtn" class="secondary-btn">Back to Home</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
